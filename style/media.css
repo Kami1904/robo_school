@@ -1,0 +1,237 @@
+@media (max-width: 1200px) {
+    .container {
+        background: aqua;
+        width: 900px;
+    }
+
+    .header {
+        padding: 15px 60px 0;
+    }
+
+    .menu {
+        width: 30%;
+    }
+
+    .menu a {
+        font-size: 15px;
+    }
+
+    .logo {
+        font-size: 25px;
+    }
+
+    .header_box p {
+        font-size: 25px;
+    }
+
+    .promo_trainig {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        margin: 0;
+        padding: 60px 30px 0;
+    }
+
+    .promo_desc {
+        width: 450px;
+        padding-top: 50px;
+    }
+
+    .promo_img {
+        width: 50%;
+        height: 85%;
+    }
+
+    .robo_school_desc {
+        width: 760px;
+    }
+
+    .statistic_grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .trainer_elem img {
+        width: 100%;
+        height: 400px;
+    }
+
+}
+
+@media (max-width: 992px) {
+    .container {
+        width: 700px;
+    }
+
+    .button {
+        width: 75%;
+        height: 10%;
+    }
+
+    .promo_desc h1 {
+        font-size: 50px;
+    }
+
+    .promo_desc p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 500px;
+    }
+
+    .header_box p,
+    .menu {
+        display: none;
+    }
+
+    .burger {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        background: none;
+        border: 0;
+    }
+
+    .burger span {
+        width: 40px;
+        height: 5px;
+        background: white;
+        border-radius: 10px;
+    }
+
+    .burger span:nth-child(3) {
+        width: 20px;
+        height: 5px;
+        background: white;
+        border-radius: 10px;
+    }
+
+    .promo_desc {
+        padding-top: 50px;
+    }
+
+    .promo_desc h1 {
+        font-size: 30px;
+    }
+
+    .robo_school_desc {
+        margin-top: 60px;
+        margin-bottom: 30px;
+        width: 500px;
+    }
+
+    .robo_school_desc p {
+        font-size: 20px;
+    }
+
+    .statistic_elem h2 {
+        font-size: 50px;
+    }
+
+    .trainer_grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer {
+        margin-top: 20px;
+    }
+
+    .footer_box a,
+    .footer_box p {
+        font-size: 15px;
+    }
+
+    .trainer_grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
+    }
+
+    .header {
+        padding: 15px 30px 0;
+    }
+
+    .footer {
+        padding: 20px 50px;
+        height: 100px;
+    }
+
+    .promo_trainig {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 30px 10px 0;
+    }
+
+    .button {
+        display: none;
+    }
+
+    .button_576 {
+        display: block;
+        width: 400px;
+        height: 79px;
+        background-color: #D52027;
+        font-size: 18px;
+        font-weight: 400;
+        color: white;
+        border: 0;
+        margin-top: -50px;
+        margin-bottom: 50px;
+    }
+
+    .promo_img {
+        width: 60%;
+    }
+
+    .promo_desc h1 {
+        font-size: 30px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .promo_desc p {
+        font-size: 16px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .trainer_grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .trainer_elem:nth-child(1n+2) {
+        display: none;
+    }
+
+    .trainer h2 {
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .robo_school_desc span {
+        font-size: 20px;
+    }
+
+    .footer {
+        padding: 30px 0 0;
+    }
+
+    .footer_box {
+        flex-direction: column;
+        margin: 0 auto;
+        width: 140px;
+        text-align: center;
+    }
+    .footer_box p{
+        margin-bottom: 30px;
+        margin-top: 10px;
+    }
+}
