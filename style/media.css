@@ -64,7 +64,8 @@
 
     .button {
         width: 75%;
-        height: 10%;
+        height: 20%;
+        margin-bottom: 50px;
     }
 
     .promo_desc h1 {
